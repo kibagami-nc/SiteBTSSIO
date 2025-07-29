@@ -4,9 +4,9 @@ body {
 }
 
 #presentation {
+    text-align: center;
     width: auto;
-    margin: 0;
-    text-align: left;
+    margin: auto;
 }
 
 
