@@ -1,12 +1,12 @@
 body {
     padding: 17.5em;
+    background-image: url('../Img/a_changer.jpg');
 }
 #presentation {
     position: relative;
     text-align: center;
     width: 60%;
     margin: 5em auto;
-    margin-top: 5em auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,8 +45,8 @@ p {
     display: block;
     width: 1.5vw;
     height: 1.5vw;
-    border-bottom: 5px solid #2c3e50;
-    border-right: 5px solid #2c3e50;
+    border-bottom: 5px solid #ffffff;
+    border-right: 5px solid #ffffff;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
