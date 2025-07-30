@@ -11,7 +11,7 @@
     justify-content: space-between;
     font-size: 1.2em;
     transition: top 0.3s;
-    padding: 0 0px;
+
 }
 
 #topbar span {
@@ -48,11 +48,11 @@
 
 .dd_list li {
   border: 1px dotted;
-  background-color:#2c3e50;
+  background-color:#747d85;
   padding: 10px; }
 
 .dd_list li:hover { 
-  background-color: rgb(39, 39, 121); 
+  background-color: rgb(183, 183, 255); 
 }
 
 .menu>li, .dd_list { 
@@ -60,6 +60,6 @@
 }
 
 .menu>li:first-child {
-  background-color: #2c3e50;
+  background-color: #747d85;
   cursor: auto; 
 }

@@ -2,9 +2,11 @@ body {
     padding: 17.5em;
 }
 #presentation {
+    position: relative;
     text-align: center;
     width: 60%;
     margin: 5em auto;
+    margin-top: 5em auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,13 +29,16 @@ p {
 }
 
 .arrow {
-    padding: 5em;
-    margin-left: 35em;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transform: rotate(0deg);
-    cursor: pointer;
+    position: relative;
+    left: 5%;
+    width: 3vw;
+    height: 3vw;
+    background: transparent;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 100;
+    bottom: -4em;
+    transform: translateX(-50%);
 }
 
 .arrow span {
